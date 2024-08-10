@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+    </nav>
+
+    <div class="contact-info">
+        <h2>Our Contact Information</h2>
+        <p><strong>Phone:</strong> <a href="tel:+919840745285">(91) 9840745285</a></p>
+        <p><strong>Email:</strong> <a href="mailto:asma.themindlab@gmail.com">asma.themindlab@gmail.com</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/919840745285" target="_blank">Chat with us on WhatsApp</a></p>
+        <p><strong>Address:</strong> Chennai, India (Online Consultations also available)</p>
+    </div>
+
+   
+</body>
+</html>
