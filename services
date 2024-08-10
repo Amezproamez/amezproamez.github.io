@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Our Services</h1>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <p>Select a service from the drop-down menu:</p>
+    
+    <label for="services">Choose a service:</label>
+    <select id="services" name="services">
+        <option value="Individual Therapy">Counseling</option>
+        <option value="Couples Therapy/ Marital/ Family Therapy">Therapy</option>
+        <option value="Psychological Assessments (Diagnostic/ Screening)">Consultation</option>
+        <option value="Training and Workshops">Workshops</option>
+    </select>
+
+    <p>Kindly let us know the type of service you would like to avail from us.</p>
+
+</body>
+</html>
