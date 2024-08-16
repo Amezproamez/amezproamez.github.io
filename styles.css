@@ -172,7 +172,7 @@ button:hover {
 }
 /* Home Page Background */
 body.home-page {
-    background-image: url('images/The MIND LAB.png');
+    background-image: url('images/TheMINDLAB.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
