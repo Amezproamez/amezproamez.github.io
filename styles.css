@@ -170,3 +170,34 @@ button {
 button:hover {
     background-color: #1abc9c;
 }
+/* Home Page Background */
+body.home-page {
+    background-image: url('images/images (4).jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* About Page Background */
+body.about-page {
+    background-image: url('images/bg1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Services Page Background */
+body.services-page {
+    background-image: url('images/earth-zen-garden-hd-wallpaper-preview.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Contact Page Background */
+body.contact-page {
+    background-image: url('images/wallpaper-the-sky-mountains-rocks-trees-stones-zen-garden-zen-ai-generated-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
