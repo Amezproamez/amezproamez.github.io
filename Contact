@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Contact Us</h1>
-    <nav class="nav">
+<nav class="nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
-        <a href="services.html">Services</a>
+        <a href="services.html">services</a>
+        <a href="Contact.html">Contact</a>
+        <a href="Online appointments.html">Online appointments</a>
     </nav>
-
+    <h1>Contact Us</h1>
     <div class="contact-info">
         <h2>Our Contact Information</h2>
         <p><strong>Phone:</strong> <a href="tel:+919840745285">(91) 9840745285</a></p>
