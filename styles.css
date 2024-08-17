@@ -15,8 +15,6 @@ p {
 /* Navigation bar styles */
 .nav {
     font-family: 'Montserrat', sans-serif; /* Or 'Playfair Display', serif */
-    background-color: #2F4F4F; /* Dark brown background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     padding: 10px 0; /* Adjust padding if needed */
     position: fixed; /* Fix the navigation bar at the top */
