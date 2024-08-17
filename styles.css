@@ -262,7 +262,7 @@ button:hover {
 }
 /* Home Page Background */
 body.home-page {
-    background-image: url('images/index.png');
+    background-image: url('images/index px.png');
     background-size: cover; /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
