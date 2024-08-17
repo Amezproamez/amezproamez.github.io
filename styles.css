@@ -21,12 +21,18 @@ p {
 .nav a {
     color: #FFB703; /* Mustard text */
     padding: 5px 8px; /* Further reduced padding */
+    margin-right: 10px; /* Add space between buttons */
     text-decoration: none;
-    font-size: 12px; /* Further reduced font size */
+    font-size: 14px; /* Font size */
     display: block;
     float: left;
     text-shadow: 1px 1px 2px rgba(218, 165, 32, 0.5); /* Subtle text shadow in mustard */
     transition: background-color 0.3s ease-in-out;
+}
+
+/* Remove margin from the last navigation item */
+.nav a:last-child {
+    margin-right: 0;
 }
 
 /* Hover effects */
@@ -242,8 +248,28 @@ body.home-page {
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
     background-position: center center; /* Centers the image on the page */
     height: 100vh; /* Sets the height to 100% of the viewport height */
-    margin: 0;
-    padding: 0;
+    padding: 20px; /* Add padding to prevent text from touching the edges */
+    box-sizing: border-box;
+}
+/* Text container */
+.text-container {
+    padding: 20px; /* Adds space around the text */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background for better readability */
+    max-width: 100%; /* Ensures the container does not overflow */
+    overflow: hidden; /* Prevents text from spilling out */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .text-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+/* Ensure text container adapts to content */
+.text-container {
+    width: auto; /* Allows the container to expand based on content */
+    height: auto; /* Ensures the height adapts to the text */
+    display: inline-block; /* Ensures the container doesn't take up full width if not needed */
 }
 
 /* Media queries for responsive design */
@@ -254,6 +280,7 @@ body.home-page {
         background-position: top center; /* Adjusts the position for mobile view */
     }
 }
+}
 /* About Page Background */
 body.about-page {
     background-image: url('images/about.png');
@@ -262,8 +289,28 @@ body.about-page {
     background-attachment: fixed;
     background-position: center center; /* Centers the image on the page */
     height: 100vh; /* Sets the height to 100% of the viewport height */
-    margin: 0;
-    padding: 0;
+    padding: 20px; /* Add padding to prevent text from touching the edges */
+    box-sizing: border-box;
+}
+/* Text container */
+.text-container {
+    padding: 20px; /* Adds space around the text */
+    background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background for better readability */
+    max-width: 100%; /* Ensures the container does not overflow */
+    overflow: hidden; /* Prevents text from spilling out */
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .text-container {
+        padding: 15px; /* Adjust padding for smaller screens */
+    }
+}
+/* Ensure text container adapts to content */
+.text-container {
+    width: auto; /* Allows the container to expand based on content */
+    height: auto; /* Ensures the height adapts to the text */
+    display: inline-block; /* Ensures the container doesn't take up full width if not needed */
 }
 
 /* Media queries for responsive design */
