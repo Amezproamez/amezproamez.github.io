@@ -289,14 +289,6 @@ body.about-page {
     background-attachment: fixed;
     background-position: center center; /* Centers the image on the page */
     height: 100vh; /* Sets the height to 100% of the viewport height */
-    padding: 20px; /* Add padding to prevent text from touching the edges */
-}
-/* Text container */
-.text-container {
-    padding: 20px; /* Adds space around the text */
-    background-color: rgba(255, 255, 255, 0.8); /* Optional: semi-transparent background for better readability */
-    max-width: 100%; /* Ensures the container does not overflow */
-    overflow: hidden; /* Prevents text from spilling out */
 }
 
 /* Responsive adjustments */
