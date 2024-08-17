@@ -15,13 +15,12 @@ p {
 /* Navigation bar styles */
 .nav {
     font-family: 'Montserrat', sans-serif; /* or 'Playfair Display', serif */
-    background-color: #2F4F4F; /* Dark brown background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 /* Navigation links */
 .nav a {
     color: #FFB703; /* Mustard text */
+    padding: 5px 8px; /* Further reduced padding */
     text-decoration: none;
     font-size: 12px; /* Further reduced font size */
     display: block;
