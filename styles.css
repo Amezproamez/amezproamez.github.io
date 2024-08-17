@@ -16,7 +16,7 @@ p {
 .nav {
     font-family: 'Montserrat', sans-serif; /* or 'Playfair Display', serif */
     background-color: #606c38; /* Olive green background */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
 
