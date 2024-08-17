@@ -247,7 +247,7 @@ body.home-page {
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
     background-position: center center; /* Centers the image on the page */
-    height: 100vh; /* Sets the height to 100% of the viewport height */
+    height: 70vh; /* Sets the height to 100% of the viewport height */
     padding: 20px; /* Add padding to prevent text from touching the edges */
     box-sizing: border-box;
 }
