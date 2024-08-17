@@ -290,20 +290,6 @@ body.about-page {
     background-position: center center; /* Centers the image on the page */
     height: 100vh; /* Sets the height to 100% of the viewport height */
 }
-
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-    .text-container {
-        padding: 15px; /* Adjust padding for smaller screens */
-    }
-}
-/* Ensure text container adapts to content */
-.text-container {
-    width: auto; /* Allows the container to expand based on content */
-    height: auto; /* Ensures the height adapts to the text */
-    display: inline-block; /* Ensures the container doesn't take up full width if not needed */
-}
-
 /* Media queries for responsive design */
 @media (max-width: 768px) {
     body {
@@ -312,7 +298,6 @@ body.about-page {
         background-position: top center; /* Adjusts the position for mobile view */
     }
 }
-
 /* Services Page Background */
 body.services-page {
     background-image: url('images/earth-zen-garden-hd-wallpaper-preview.jpg');
