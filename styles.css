@@ -14,13 +14,33 @@ p {
 }
 /* Navigation bar styles */
 .nav {
-    font-family: 'Montserrat', sans-serif; /* or 'Playfair Display', serif */
+    font-family: 'Montserrat', sans-serif; /* Or 'Playfair Display', serif */
+    background-color: #2F4F4F; /* Dark brown background */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
+    padding: 10px 0; /* Adjust padding if needed */
+    position: fixed; /* Fix the navigation bar at the top */
+    top: 0;
+    width: 100%; /* Ensure it spans the full width */
+    z-index: 1000; /* Keep it above other content */
 }
-/* Navigation links */
+
+/* Push the image down by the height of the navigation bar */
+.image-container {
+    padding-top: 60px; /* Adjust this value based on the height of your nav */
+    text-align: center; /* Center the image horizontally */
+}
+
+/* Responsive image */
+.image-container img {
+    max-width: 100%; /* Ensure the image scales with the screen size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+/* Navigation link styles */
 .nav a {
-    color: #283618; /* Olive Green text */
-    padding: 5px 8px; /* Further reduced padding */
+    color: #FFFFFF; /* White text for navigation links */
+    padding: 8px 12px; /* Button padding */
     margin-right: 10px; /* Add space between buttons */
     text-decoration: none;
     font-size: 14px; /* Font size */
