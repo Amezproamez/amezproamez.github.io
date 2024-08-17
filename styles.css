@@ -290,7 +290,6 @@ body.about-page {
     background-position: center center; /* Centers the image on the page */
     height: 100vh; /* Sets the height to 100% of the viewport height */
     padding: 20px; /* Add padding to prevent text from touching the edges */
-    box-sizing: border-box;
 }
 /* Text container */
 .text-container {
