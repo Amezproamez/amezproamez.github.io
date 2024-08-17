@@ -15,6 +15,7 @@ p {
 /* Navigation bar styles */
 .nav {
     font-family: 'Montserrat', sans-serif; /* Or 'Playfair Display', serif */
+    background-color: rgba(0, 0, 0, 0.2); /* Subtle background color for better readability */
     overflow: hidden;
     padding: 10px 0; /* Adjust padding if needed */
     position: fixed; /* Fix the navigation bar at the top */
@@ -258,6 +259,19 @@ button {
 button:hover {
     background-color: #1abc9c;
 }
+
+@media (max-width: 768px) {
+    .nav {
+        font-size: 12px; /* Adjust font size for smaller screens */
+    }
+    .image-container img {
+        width: 100%; /* Ensure the image scales down for smaller screens */
+    }
+}
+.image-container {
+    margin-top: 20px; /* Add some space above the image */
+}
+
 /* Home Page Background */
 body.home-page {
     background-image: url('images/index px.png');
