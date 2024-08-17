@@ -283,13 +283,16 @@ body.home-page {
 }
 /* About Page Background */
 body.about-page {
-    background-image: url('images/about.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url('images/about.png'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
     background-position: center center; /* Centers the image on the page */
     height: 100vh; /* Sets the height to 100% of the viewport height */
+    margin: 0;
+    padding: 0;
 }
+
 /* Media queries for responsive design */
 @media (max-width: 768px) {
     body {
