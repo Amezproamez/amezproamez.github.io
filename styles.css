@@ -280,10 +280,10 @@ body.home-page {
         background-position: top center; /* Adjusts the position for mobile view */
     }
 }
-}
+
 /* About Page Background */
 body.about-page {
-    background-image: url('images/about.png'); /* Path to your background image */
+    background-image: url('images/about (1).png'); /* Path to your background image */
     background-size: cover; /* Ensures the image covers the entire background */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Keeps the background fixed when scrolling */
